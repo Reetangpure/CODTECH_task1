@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Our Courses</h1>
+        <div class="courses">
+            <div class="course">
+                <img src="java_logo.png" alt="Java Logo">
+                <h2>Java</h2>
+                <p>Learn the basics of Java programming language</p>
+                <p>Duration: 3 months</p>
+                <p>Price: $500</p>
+                <a href="#">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="python_logo.png" alt="Python Logo">
+                <h2>Python</h2>
+                <p>Learn the basics of Python programming language</p>
+                <p>Duration: 2 months</p>
+                <p>Price: $300</p>
+                <a href="#">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="cpp_logo.png" alt="C++ Logo">
+                <h2>C++</h2>
+                <p>Learn the basics of C++ programming language</p>
+                <p>Duration: 4 months</p>
+                <p>Price: $600</p>
+                <a href="#">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="cpp_logo.png" alt="C++ Logo">
+                <h2>C++</h2>
+                <p>Learn the basics of C++ programming language</p>
+                <p>Duration: 4 months</p>
+                <p>Price: $600</p>
+                <a href="#">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="cpp_logo.png" alt="C++ Logo">
+                <h2>C++</h2>
+                <p>Learn the basics of C++ programming language</p>
+                <p>Duration: 4 months</p>
+                <p>Price: $600</p>
+                <a href="#">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © 2024 CODTECH. All rights reserved.
+    </footer>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.course img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.course h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course p {
+    margin-bottom: 10px;
+}
+
+.course a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</body>
+</html>
